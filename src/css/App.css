@@ -1,5 +1,9 @@
 html{
   box-sizing: border-box;
+  color: black;
+  background-image: linear-gradient( 135deg, #65FDF0 10%, #1D6FA3 100%);
+  width: 100%;
+  height: 100%;
 }
 
 .appBody {
@@ -15,7 +19,7 @@ input {
 
 .DSNinput {
   padding: 0.2rem 0.2rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   letter-spacing: 0.2rem;
   text-align: center;
   outline: none;
@@ -24,7 +28,7 @@ input {
 }
 
 .commOutput{
-  font-size: 1rem;
+  font-size: 1.5rem;
   letter-spacing: 0.2rem;
   text-align: center;
 }
@@ -43,4 +47,6 @@ input {
 
 .btn:hover {
   background: hsl(194, 100%, 60%);
+  color: black;
+  box-shadow: 2px 4px 16px rgb(0,0,0,.5);
 }

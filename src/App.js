@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="appBody">
-      <h1>DSN Converter</h1>
+      <h1>DSN Europe</h1>
       <div>
         <h3>Commercial</h3>
         <DisplayDetails commPrefix={DSNArray[enteredDSN]} extension={extension}/>
