@@ -1,0 +1,43 @@
+html{
+  box-sizing: border-box;
+}
+
+.appBody {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.DSNinput {
+  padding: 0.4rem 0.5rem;
+  margin: 1rem;
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+  text-align: center;
+  outline: none;
+  border: thin solid #ccc;
+  box-shadow: 2px 2px 12px rgb(0,0,0,.5);
+  width: fit-content;
+}
+
+.commOutput{
+  font-size: 2.5rem;
+  letter-spacing: 0.4rem;
+  text-align: center;
+}
+
+.btn {
+  padding: 0.4rem 0.5rem;
+  margin: 1rem;
+  font-size: 1rem;
+  background: hsl(194, 100%, 40%);
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.btn:hover {
+  background: hsl(194, 100%, 60%);
+}
