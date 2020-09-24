@@ -1,7 +1,13 @@
 import React, { useRef } from "react"
 import InputMask from 'react-input-mask'
 
-export default function DSNRow({ number, setEnteredDSN, setExtension }) {
+export default function DSNRow(props) {
+  const {
+    setEnteredDSN, 
+    setExtension,
+    commPrefix,
+    extension
+  } = props
   const dsnInput = useRef()
 
   const convertNumber = () => {
@@ -24,6 +30,7 @@ export default function DSNRow({ number, setEnteredDSN, setExtension }) {
       />
       <div>
         <button className="btn" onClick={() => convertNumber()}>Convert</button>
+        {commPrefix && <a className="btn" href={`tel:${commPrefix}-${extension}`}>Dial</a>}
       </div>      
     </>
   );

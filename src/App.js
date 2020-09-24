@@ -28,7 +28,12 @@ function App() {
       </div>
       <div>
         <h3>DSN</h3>
-        <DSNRow number={enteredDSN} setEnteredDSN={setEnteredDSN} setExtension={setExtension}/>
+        <DSNRow 
+          setEnteredDSN={setEnteredDSN} 
+          setExtension={setExtension}
+          commPrefix={DSNArray[enteredDSN]} 
+          extension={extension}  
+        />
       </div>
 
     </div>
