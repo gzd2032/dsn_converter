@@ -10,7 +10,7 @@ export default function DSNRow({ number, setEnteredDSN, setExtension }) {
     const number = userInput[1]
     setEnteredDSN(dsn)
     setExtension(number)
-  }
+  }  
 
   return (
     <>
