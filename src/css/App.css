@@ -8,21 +8,24 @@ html{
 
 }
 
+input {
+  padding: 0;
+  margin: 0;
+}
+
 .DSNinput {
-  padding: 0.4rem 0.5rem;
-  margin: 1rem;
-  font-size: 2.5rem;
-  letter-spacing: 1rem;
+  padding: 0.2rem 0.2rem;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
   text-align: center;
   outline: none;
   border: thin solid #ccc;
   box-shadow: 2px 2px 12px rgb(0,0,0,.5);
-  width: fit-content;
 }
 
 .commOutput{
-  font-size: 2.5rem;
-  letter-spacing: 0.4rem;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
   text-align: center;
 }
 

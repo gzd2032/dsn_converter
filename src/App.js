@@ -15,7 +15,6 @@ function App() {
     .then(res => res.json())
     .then(data => {
         setDSNArray(data.prefix_list)
-        console.log(data.prefix_list)
     })
   },[])
 

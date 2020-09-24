@@ -6,8 +6,8 @@ export default function DSNRow({ number, setEnteredDSN, setExtension }) {
 
   const convertNumber = () => {
     const userInput = dsnInput.current.value.split("-")
-    const dsn = userInput[0]
-    const number = userInput[1]
+    const dsn = userInput[0].toString()
+    const number = userInput[1].toString()
     setEnteredDSN(dsn)
     setExtension(number)
   }  
@@ -20,6 +20,7 @@ export default function DSNRow({ number, setEnteredDSN, setExtension }) {
         onKeyPress={event => event.key === 'Enter' && convertNumber()} 
         mask="999-9999" 
         maskChar="_" 
+        type="tel"
       />
       <div>
         <button className="btn" onClick={() => convertNumber()}>Convert</button>
