@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import DisplayDetails from './components/DisplayDetails';
+import React, { useState, useEffect } from 'react'
+import DisplayDetails from './components/DisplayDetails'
 import DSNRow from './components/DSNRow'
-import './css/App.css';
+import './css/App.css'
 
 const DSN_API_URL = process.env.REACT_APP_DSN_API_URL
 

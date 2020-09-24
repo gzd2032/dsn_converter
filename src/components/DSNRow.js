@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef } from "react"
 import InputMask from 'react-input-mask'
 
 export default function DSNRow({ number, setEnteredDSN, setExtension }) {
