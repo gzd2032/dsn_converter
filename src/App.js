@@ -26,7 +26,6 @@ function App() {
     .then(res => res.json())
     .then(data => {
         setDSNArray(data.prefix_list)
-        console.log(data)
     })
     .catch(() => {
         setApiMsg("dsn-api not found")
