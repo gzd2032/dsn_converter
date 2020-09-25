@@ -18,6 +18,7 @@ input {
 }
 
 .DSNinput {
+  padding-right: 50px;
   padding: 0.2rem 0.2rem;
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
@@ -34,7 +35,7 @@ input {
 }
 
 .btn {
-  padding: 0.4rem 0.5rem;
+  padding: 0.5rem 1rem;
   margin: 1rem;
   font-size: 1rem;
   background: hsl(194, 100%, 40%);
@@ -43,10 +44,24 @@ input {
   color: white;
   border-radius: 3px;
   text-align: center;
+  box-shadow: 2px 4px 3px rgb(0,0,0,.2);
 }
 
 .btn:hover {
   background: hsl(194, 100%, 60%);
-  color: black;
   box-shadow: 2px 4px 16px rgb(0,0,0,.5);
+  transition: 0.5s ease-in;
+}
+
+.clearBtn {
+  margin-left: -50px;
+  outline: none;
+  border: none;
+  height: 100%;
+  font-size: 2rem;
+  background: none;
+}
+
+.errorMsg {
+  color: red;
 }
