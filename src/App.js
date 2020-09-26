@@ -21,7 +21,6 @@ function App() {
   }, [enteredDSN])
 
   useEffect(() => {
-    console.log(DSN_API_URL)
     fetch(DSN_API_URL)
     .then(res => res.json())
     .then(data => {
