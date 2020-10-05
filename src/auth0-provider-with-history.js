@@ -11,6 +11,8 @@ const Auth0ProviderWithHistory = ({ children }) => {
   const history = useHistory();
 
   const onRedirectCallback = (appState) => {
+    window.location.hash = window.location.hash; // eslint-disable-line no-self-assign
+
     history.push(
       appState && appState.returnTo
         ? appState.returnTo
