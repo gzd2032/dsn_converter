@@ -1,0 +1,20 @@
+
+
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.navBar a,
+.navBar button {
+    padding:0.4rem 1rem;
+    margin: 0.4rem;
+    border: none;
+    font-size: small;
+    background:white;    
+    text-decoration: none;
+    color: black;
+}

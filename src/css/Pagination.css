@@ -1,0 +1,22 @@
+.Pagination{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Pagination ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.Pagination li {
+    padding: 2px 4px;
+    margin: 1px 4px;
+}
+
+.currentPage {
+    margin-top: 1rem;
+    font-size: 1rem;
+    
+}

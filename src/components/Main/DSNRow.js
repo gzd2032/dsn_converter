@@ -1,5 +1,8 @@
+
+// Component to display the DSN user input on the MainApp.js
+
 import React, { useState, useRef } from "react"
-import InputMask from 'react-input-mask'
+import InputMask from 'react-input-mask'  
 
 export default function DSNRow(props) {
   const {
@@ -9,15 +12,15 @@ export default function DSNRow(props) {
     extension
   } = props
   const [userInput, setUserInput] = useState("")
-  const dsnInput = useRef()
+  const dsnInput = useRef() //Retrieves values from user form to update DSN
 
   const convertNumber = () => {
     if (userInput !== undefined) {
       const userIn = userInput.split("-")
       const dsn = userIn[0]
       const number = userIn[1]
-      setEnteredDSN(dsn.toString())
-      setExtension(number.toString())
+      setEnteredDSN(dsn ? dsn.toString(): "")
+      setExtension(number ? number.toString(): "")
     }
   }  
 

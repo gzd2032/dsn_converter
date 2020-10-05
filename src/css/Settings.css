@@ -1,0 +1,40 @@
+#itemListContainer{
+    display: grid;
+    grid-template-columns: auto 1fr 2fr 4fr;
+    grid-template-rows: 2fr;
+    margin: auto auto;
+    justify-items: unset;
+
+}
+
+#itemListContainer button {
+    outline: none;
+    background: none;
+    border: none;
+}
+
+#itemListContainer button:hover {
+    background: gray;
+    color: white;
+}
+
+.item, .itemHeader {
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 3px 6px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+.item {
+    background: white;
+
+}
+.itemHeader {
+    background: black;
+    color: white;
+}
+
+
+
