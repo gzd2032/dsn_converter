@@ -1,6 +1,6 @@
-import React from 'react'
-import './css/App.css'
-import Navbar from './components/NavBar'
+import React from "react";
+import "./css/App.css";
+import Navbar from "./components/NavBar";
 
 function App() {
   return (
@@ -9,6 +9,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;

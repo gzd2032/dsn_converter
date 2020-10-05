@@ -1,4 +1,4 @@
-// Component to create a logout button using Auth0-react
+// Component to create a logout button using Auth0-react in Settings.js
  
  import React from 'react'
  import { useAuth0 } from "@auth0/auth0-react";
