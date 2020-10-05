@@ -52,13 +52,9 @@
     }
 
     .itemModal {
-        position: fixed;
         top: 2%;
         left: 2%;
-        transform: 'translate(-2%, -2%)' ;
-        background: #FFF;
-        padding: 30px;
-        z-index: 100;
+        max-width: 580px; 
     }
 
   }
