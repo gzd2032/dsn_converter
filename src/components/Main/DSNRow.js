@@ -48,7 +48,7 @@ export default function DSNRow(props) {
           Convert
         </button>
         {commPrefix && (
-          <a className="btn" href={`tel:${commPrefix}-${extension}`}>
+          <a className="btn" href={`tel:${commPrefix.split(":")[0]} ${extension}`}>
             Dial
           </a>
         )}
